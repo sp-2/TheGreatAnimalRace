@@ -12,10 +12,10 @@ import java.util.Scanner;
 public class MainApp implements iRunnerConstants {
 	// declare class variables
 	private static final ArrayList<Thread> RunnerThreadList = new ArrayList<Thread>();
-	private static ThreadGroup group = new ThreadGroup("new Group");
-    private static RunnerDAO runnerDAO = null;
-    private static Scanner sc = null;
-    private static Thread main = null;
+	private static ThreadGroup group 	= new ThreadGroup("new Group");
+    	private static RunnerDAO runnerDAO 	= null;
+    	private static Scanner sc 		= null;
+    	private static Thread main 		= null;
 	public static void main(String[] args) {
 		 //Thread main = Thread.currentThread();
 
