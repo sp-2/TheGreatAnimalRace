@@ -47,7 +47,7 @@
 		        catch(InterruptedException e) {
 		        	 //System.out.println(runner.getName() + " : You beat me fair and square. I only ran "+ distance+" miles."
 		        	 System.out.println(runner.getName() + " : You beat me fair and square.");
-		        	 break;
+		        	 return;
 		        }
 		        }
 
